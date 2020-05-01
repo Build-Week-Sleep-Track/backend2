@@ -1,0 +1,29 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Build-Week-Sleep-Track/backend2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Build-Week-Sleep-Track/backend2/issues"
+  },
+  "homepage": "https://github.com/Build-Week-Sleep-Track/backend2#readme",
+  "dependencies": {
+    "connect-session-knex": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^3.22.0",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  }
+}
